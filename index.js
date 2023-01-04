@@ -11,4 +11,6 @@ server.use(middle)
 server.use(router)
 
 
-server.listen(8080)
+server.listen(8080,()=>{
+    console.log('listening on http://localhost:8080')
+})
