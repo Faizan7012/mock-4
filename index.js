@@ -3,7 +3,7 @@ const router = JS.router('./db.json')
 const server = JS.create();
 const middle = JS.defaults();
 
-server.use(jsonServer.rewriter({
+server.use(JS.rewriter({
     '/api/*': '/$1',
     '/blog/:resource/:id/show': '/:resource/:id'
   }))
