@@ -1,0 +1,26 @@
+{
+    "product":[
+        {
+            "id":1,
+            "name":"nike t-shirt"
+        },
+        {
+            "id":2,
+            "name":"nike short"
+        },
+        {
+            "id":3,
+            "name":"nike shoes"
+        }
+    ],
+    "cart":[
+        {
+            "id":1,
+            "name":"nike t-shirt"
+        },
+        {
+            "id":2,
+            "name":"nike short"
+        }
+    ]
+}
