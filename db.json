@@ -11,20 +11,7 @@
     {
       "id": 3,
       "name": "nike shoes"
-    },
-    {
-      "id": 4,
-      "name": "nike jacket"
     }
   ],
-  "cart": [
-    {
-      "id": 1,
-      "name": "nike t-shirt"
-    },
-    {
-      "id": 2,
-      "name": "nike short"
-    }
-  ]
+  "cart": []
 }

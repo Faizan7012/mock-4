@@ -1,9 +1,8 @@
 const JS = require('json-server');
-const path = require('path')
-const router = JS.router(path.join(__dirname, 'db.json'))
+const router = JS.router('./db.json')
 const server = JS.create();
 const middle = JS.defaults();
-
+JS.rewriter();
 
 server.use(middle)
 server.use(router)
