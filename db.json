@@ -1,13 +1,4 @@
 {
-  "product": [
-    {
-      "id": 1,
-      "name": "nike t-shirt"
-    },
-    {
-      "id": 2,
-      "name": "puma shoes"
-    }
-  ],
-  "cart": []
+  "cars": [],
+  "wishlist": []
 }
